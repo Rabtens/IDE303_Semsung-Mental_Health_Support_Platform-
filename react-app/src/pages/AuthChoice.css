@@ -1,0 +1,129 @@
+.auth-choice-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  padding: 20px;
+}
+
+.auth-choice-card {
+  background: linear-gradient(135deg, rgba(0, 212, 170, 0.05) 0%, rgba(0, 212, 170, 0.02) 100%);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+  max-width: 900px;
+  width: 100%;
+  padding: 60px;
+}
+
+.auth-choice-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.auth-choice-icon {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.auth-choice-header h1 {
+  font-family: 'Lora', serif;
+  font-size: 2.5rem;
+  color: var(--text-light);
+  margin-bottom: 10px;
+}
+
+.auth-choice-header p {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+}
+
+.auth-choice-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.auth-choice-option {
+  background: rgba(0, 212, 170, 0.05);
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.auth-choice-option:hover {
+  border-color: var(--accent);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 32px rgba(0, 212, 170, 0.2);
+  background: rgba(0, 212, 170, 0.08);
+}
+
+.option-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.auth-choice-option h3 {
+  font-size: 1.3rem;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+
+.auth-choice-option p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  min-height: 60px;
+}
+
+.option-btn {
+  background: linear-gradient(135deg, var(--accent) 0%, #00b89a 100%);
+  color: var(--primary);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'DM Sans', sans-serif;
+  transition: all 0.3s;
+}
+
+.option-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 212, 170, 0.3);
+}
+
+.auth-choice-disclaimer {
+  background: linear-gradient(135deg, rgba(0, 212, 170, 0.1) 0%, rgba(0, 212, 170, 0.05) 100%);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .auth-choice-card {
+    padding: 30px;
+  }
+
+  .auth-choice-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .auth-choice-icon {
+    font-size: 2.5rem;
+  }
+
+  .auth-choice-options {
+    grid-template-columns: 1fr;
+  }
+}

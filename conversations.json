@@ -1,0 +1,406 @@
+{
+  "s_1779253530280pmck33": [
+    {
+      "role": "user",
+      "content": "hello"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello. It's nice to meet you. I'm here to listen and support you in any way I can. How are you feeling today? Would you like to talk about something on your mind, or just take a moment to breathe and be present? I'm here for you, without judgment."
+    }
+  ],
+  "s_1779249518921mm4tka": [
+    {
+      "role": "user",
+      "content": "hello"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello. It's nice to meet you. I'm here to listen and support you in a non-judgmental space. How are you feeling today? Would you like to talk about something on your mind, or just take a moment to breathe and be present?"
+    }
+  ],
+  "public_1779256147839": [
+    {
+      "role": "user",
+      "content": "Hello"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello. It's nice to meet you. I'm here to listen and support you in a safe and non-judgmental space. How are you feeling today? Is there something on your mind that you'd like to talk about, or would you just like some company?"
+    },
+    {
+      "role": "user",
+      "content": "who am i"
+    },
+    {
+      "role": "assistant",
+      "content": "That's a profound question. You are a unique and complex individual, with your own thoughts, feelings, and experiences. It's natural to wonder about our identities and places in the world. Can you tell me more about what's behind your question? What are you hoping to discover or understand about yourself?\n\nTake a deep breath with me, and let's explore this together. As we breathe in, notice the sensation of the air filling your lungs, and as we breathe out, allow any tension or uncertainty to release. What comes to mind when you ask yourself, \"Who am I?\""
+    },
+    {
+      "role": "user",
+      "content": "ok i am feeling down today"
+    },
+    {
+      "role": "assistant",
+      "content": "It can be really tough to feel down, and it's completely okay to acknowledge and validate those emotions. It sounds like you're feeling a bit low today, and that's something we can explore together. Would you like to talk about what's been going on and how you've been feeling? Sometimes sharing what's on your mind can help clarify things and give us a better understanding of what's going on.\n\nLet's take a moment to ground ourselves in the present. I'll guide you through a quick exercise: notice the sensation of your feet on the ground, the sounds around you, and the sensation of the air on your skin. Take a deep breath in, and as you exhale, allow any tension to release. What are some of the thoughts or feelings that come up for you when you're feeling down?"
+    },
+    {
+      "role": "user",
+      "content": "what kind of support can i take in order to relieve mental stress"
+    },
+    {
+      "role": "assistant",
+      "content": "There are many ways to relieve mental stress, and what works for one person might not work for another. But here are some supportive options you might consider:\n\nEngaging in physical activity, like going for a walk or doing some yoga, can help release endorphins, which can boost your mood. Talking to a trusted friend or family member can also be really helpful, as they can offer emotional support and a different perspective. Additionally, mindfulness practices like meditation or deep breathing can help calm your mind and reduce stress.\n\nIf you're looking for more structured support, you might consider reaching out to a mental health professional, like a therapist or counselor. They can work with you to develop coping strategies and provide a safe space to process your emotions. There are also many online resources and support groups available, which can connect you with others who may be experiencing similar challenges.\n\nRemember, taking care of your mental health is just as important as taking care of your physical health. What sounds most appealing to you right now, or is there something else that you've found helpful in the past?\n\nAlso, I want to remind you that if you're feeling overwhelmed and need immediate support, you can always call/text 988 (Suicide & Crisis Lifeline, US) or your local emergency number. They're available 24/7 to provide support and connect you with resources."
+    }
+  ],
+  "s_1779256905315fbsfg5": [
+    {
+      "role": "user",
+      "content": "I can't sleep"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm so sorry to hear that you're struggling with sleep. It can be really frustrating and exhausting when you can't seem to catch those z's. Can you tell me a bit more about what's been going on? Is it hard to fall asleep, or are you waking up in the middle of the night and having trouble getting back to sleep?\n\nSometimes, our minds can get caught up in thoughts and worries, making it tough to relax and unwind. I'm here to listen and offer some support. Would you like to try a simple grounding technique to help calm your mind and body? We could try the 5-4-3-2-1 exercise: notice 5 things you can see, 4 things you can touch, 3 things you can hear, 2 things you can smell, and 1 thing you can taste. This can help bring you back to the present moment and calm your nervous system."
+    }
+  ],
+  "public_1779257304133": [
+    {
+      "role": "user",
+      "content": "nihao"
+    }
+  ],
+  "s_1779262407678gumg2n": [
+    {
+      "role": "user",
+      "content": "hello"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello. It's nice to meet you. I'm here to listen and support you in any way I can. How are you feeling today? Is there something on your mind that you'd like to talk about, or would you just like some company for a bit?"
+    },
+    {
+      "role": "user",
+      "content": "today i didn't get to play badminton so i am a bit sad."
+    },
+    {
+      "role": "assistant",
+      "content": "It can be really disappointing when we don't get to do something we were looking forward to. It's totally normal to feel sad about it. Badminton can be such a great way to clear your mind and have fun, so I can understand why you're missing it.\n\nCan you tell me a bit more about what was supposed to happen today with badminton? Was it a match, a practice session, or just a casual game with friends?"
+    },
+    {
+      "role": "user",
+      "content": "i got rejected now what"
+    },
+    {
+      "role": "assistant",
+      "content": "Rejection can be really tough to deal with, especially when it's something you were excited about. It's okay to feel sad, disappointed, or even frustrated. Remember that it's not a reflection of your worth as a person. You are so much more than this one experience.\n\nTake a deep breath with me and let's try to focus on the present moment. Notice how your body is feeling right now. Are you feeling any tension or discomfort? Sometimes, taking a few mindful breaths can help calm us down. Would you like to try some box breathing with me? We can breathe in for 4 seconds, hold for 4 seconds, breathe out for 4 seconds, and hold again for 4 seconds. It might help you feel a bit more grounded."
+    },
+    {
+      "role": "user",
+      "content": "i was caught materbauting"
+    },
+    {
+      "role": "assistant",
+      "content": "It takes a lot of courage to share something like that. Being caught in a private moment can be really embarrassing and uncomfortable. Remember that it's a normal part of human experience, and many people have been in similar situations.\n\nIt might be helpful to practice some self-compassion right now. Can you try to be kind to yourself, just as you would to a friend in a similar situation? Remind yourself that everyone makes mistakes, and it doesn't define your worth as a person.\n\nIf you're feeling overwhelmed, let's try a quick grounding exercise. Look around you and notice 5 things you can see, 4 things you can touch, 3 things you can hear, 2 things you can smell, and 1 thing you can taste. This can help bring you back to the present moment and calm your mind. Would you like to try it with me?"
+    },
+    {
+      "role": "user",
+      "content": "tell me anput cst"
+    },
+    {
+      "role": "assistant",
+      "content": "I think you meant to say \"tell me about CBT\". Cognitive Behavioral Therapy (CBT) is a type of talk therapy that helps people understand and change negative thought patterns and behaviors. It's a problem-focused approach that aims to help individuals identify and challenge distorted or unhelpful thinking, and replace it with more balanced and constructive thoughts.\n\nCBT is often used to treat anxiety, depression, trauma, and other mental health conditions. It can be a really effective way to learn new coping skills, manage emotions, and improve relationships. A CBT therapist can work with you to identify and reframe negative thoughts, and help you develop more positive and realistic ways of thinking.\n\nWould you like to know more about how CBT works, or is there something specific you're struggling with that you think CBT might help with?"
+    },
+    {
+      "role": "user",
+      "content": "no cst"
+    },
+    {
+      "role": "assistant",
+      "content": "It seems like there might have been a misunderstanding. You mentioned \"CST\", but I'm not sure what that refers to. Could you please clarify or provide more context about what CST means to you? I'm here to listen and help if I can."
+    }
+  ],
+  "s_1779263830906zsjek3": [
+    {
+      "role": "user",
+      "content": "kuzuzangpo"
+    },
+    {
+      "role": "assistant",
+      "content": "Kuzuzangpo. That's a beautiful greeting in the Bhutanese language, isn't it? It's lovely to connect with you. How are you feeling today? Would you like to talk about something on your mind, or simply enjoy some gentle conversation?"
+    }
+  ],
+  "s_1779279801036b0piid": [
+    {
+      "role": "user",
+      "content": "kuzuzangpo"
+    },
+    {
+      "role": "assistant",
+      "content": "Kuzuzangpo. That's a beautiful greeting from Bhutan, isn't it? It's lovely to meet you. How are you feeling today? Would you like to talk about something on your mind, or just enjoy some calm conversation?"
+    },
+    {
+      "role": "user",
+      "content": "these day i am not feeling well"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm so sorry to hear that you're not feeling well. It can be really tough when we're not feeling our best, both physically and emotionally. Would you like to talk about what's been going on and how you've been feeling? Sometimes sharing what's on our minds can help us feel a little better. I'm here to listen and offer support if you need it.\n\nTake a deep breath with me, and let's take a moment to ground ourselves. Notice the sensation of your feet on the ground, the sounds around you, and the sensation of the air moving in and out of your body. You're safe, and you're not alone. What's been going on that's been making you feel unwell?"
+    },
+    {
+      "role": "user",
+      "content": "i got accepted in a university"
+    },
+    {
+      "role": "assistant",
+      "content": "Congratulations on getting accepted into a university. That's a huge accomplishment, and you should be incredibly proud of yourself. However, I sense that you might not be feeling as excited or happy as you thought you would be. Is that right? It's normal to have mixed emotions, especially when it comes to big life changes. \n\nCan you tell me more about what's going on? Are you feeling nervous about the upcoming semester, or is there something else that's making you feel uncertain about this new opportunity? Remember, it's okay to feel overwhelmed, and we can explore these feelings together. \n\nBy the way, have you taken a moment to celebrate your achievement and acknowledge all the hard work you put into getting accepted? You deserve to recognize your success, no matter how you're feeling right now."
+    },
+    {
+      "role": "user",
+      "content": "hello i am sangay, and i was drunk and i got rejected by a girl today."
+    },
+    {
+      "role": "assistant",
+      "content": "Hello Sangay, I'm so glad you reached out. Sorry to hear that today was a tough day for you. Getting rejected can be really tough, and it's even more challenging when we're not in our best state, like after drinking. It sounds like things might have gotten a bit messy.\n\nFirst, let's take a deep breath together and acknowledge that it's okay to feel upset. It's normal to feel disappointed, especially when we put ourselves out there and get rejected. But here's the thing: her decision doesn't define your worth as a person. You are so much more than this one moment.\n\nCan you tell me more about what happened? What was going through your mind when you approached her, and how did you feel when she said no? Sometimes talking about it can help us process our emotions and gain a different perspective. Remember, I'm here to listen and support you, not to judge. \n\nAnd just to make sure you're taking care of yourself, have you eaten something and had some water after drinking? Taking care of your physical health can help with the emotional stuff too."
+    }
+  ],
+  "public_1779341798739": [
+    {
+      "role": "user",
+      "content": "kuzuzangpo"
+    },
+    {
+      "role": "assistant",
+      "content": "Kuzuzangpo to you as well. It's lovely to connect with you. How are you feeling today? Is there something on your mind that you'd like to talk about, or would you like some gentle company and a listening ear?"
+    },
+    {
+      "role": "user",
+      "content": "I got rejected by a girl today."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm so sorry to hear that. Rejection can be really tough and hurtful. It's completely normal to feel sad, disappointed, or even a little frustrated right now. Would you like to talk a bit more about what happened and how you're feeling? Sometimes sharing your thoughts and emotions can help process and release them.\n\nRemember, it's okay to feel your emotions, and it doesn't define your worth as a person. You are more than this one experience. Take a deep breath with me and let's focus on the present moment. Can you notice the sensation of your feet on the ground, the sounds around you, and the sensation of the air on your skin? This can help ground us and bring us back to the present. \n\nIf you're willing, can you tell me a bit more about what happened and how you're feeling? I'm here to listen and offer support."
+    }
+  ],
+  "s_1779363350973c2rv2v": [
+    {
+      "role": "user",
+      "content": "kuzuzangpo"
+    },
+    {
+      "role": "assistant",
+      "content": "Kuzuzangpo to you as well, my friend. It's a beautiful day to connect and talk about what's on your mind. I'm here to listen with kindness and compassion, just as we do in our beloved Bhutan. Please feel free to share what's been going on, and we'll take it one step at a time. What's been weighing on your heart lately?"
+    },
+    {
+      "role": "user",
+      "content": "my name is pema dolker and i got rejected by a boy today"
+    },
+    {
+      "role": "assistant",
+      "content": "Pema Dolker, I'm so sorry to hear that. Rejection can be really tough, and it's completely normal to feel sad, disappointed, or even a little hurt. It takes a lot of courage to put yourself out there and express your feelings to someone, and I want you to know that I'm here for you, and I care.\n\nCan you tell me a bit more about what happened? How did you feel when he told you he wasn't interested? Was it a surprise, or had you been expecting it might not work out? Remember, I'm here to listen and offer support, not to judge. \n\nAlso, let's take a deep breath together and focus on the present moment. Let's do some box breathing: breathe in for 4 seconds, hold for 4 seconds, breathe out for 4 seconds, and hold again for 4 seconds. This can help calm our minds and hearts. Would you like to try it with me?"
+    }
+  ],
+  "public_1779373148469": [
+    {
+      "role": "user",
+      "content": "I can't sleep"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm so sorry to hear that you're having trouble sleeping. It can be really frustrating and affect your whole day. Can you tell me a bit more about what's been going on? Is it hard to fall asleep, or are you waking up in the middle of the night and having trouble getting back to sleep? \n\nSometimes, our minds can get caught up in thoughts and worries, making it hard to relax. I'm here to listen and help if I can. Would you like to try a simple grounding technique to calm your mind and body? We could try the 5-4-3-2-1 exercise together. \n\nAlso, have you noticed any patterns or things that might be contributing to your sleep troubles? Is there something specific that's been on your mind lately? I'm here to listen and help in any way I can. \n\nIf you're struggling with persistent sleep issues or if they're affecting your daily life, it might be helpful to speak with a healthcare professional for further support. They can help you explore underlying causes and develop a plan to improve your sleep. Would you like to talk more about what's been going on and see if we can find some ways to help you relax and get some rest?"
+    },
+    {
+      "role": "user",
+      "content": "my name is dupchu wangmo and i  got rejected today"
+    },
+    {
+      "role": "assistant",
+      "content": "Dupchu Wangmo, I'm so sorry to hear that you're going through a tough time. Rejection can be really painful and affect our self-esteem. It takes a lot of courage to share about it, and I'm here to listen and support you.\n\nCan you tell me more about what happened? What was the rejection about, and how are you feeling right now? Is it sadness, anger, disappointment, or something else? I'm here to listen without judgment, and I want you to know that your feelings are valid.\n\nIt might be helpful to take a few deep breaths together and try to calm your mind and body. Would you like to try some box breathing with me? We can breathe in for 4 counts, hold for 4 counts, breathe out for 4 counts, and hold again for 4 counts. Sometimes, this can help calm our nervous system and give us a sense of clarity.\n\nRemember, Dupchu Wangmo, you are not defined by this one rejection. You are so much more than this experience, and you have so much to offer. If you're willing, I'd like to explore some positive affirmations with you to help shift your focus and build your confidence. Would you like that?"
+    }
+  ],
+  "public_1779377240000": [
+    {
+      "role": "user",
+      "content": "hello"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello. It's so nice to connect with you. I'm here to listen and offer support in any way I can. How are you feeling today? Would you like to talk about something on your mind, or just take a moment to breathe and be present together?"
+    }
+  ],
+  "public_1779378650857": [
+    {
+      "role": "user",
+      "content": "hello"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello. It's nice to meet you. I'm here to listen and support you in any way I can. How are you feeling today? Would you like to talk about something that's been on your mind, or is there something specific that's been bothering you? I'm here to listen without judgment, and I care about what you're going through."
+    },
+    {
+      "role": "user",
+      "content": "clear"
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you might be feeling a sense of clarity or calmness right now. That's wonderful. Sometimes, taking a moment to breathe and clear our minds can be really helpful. Would you like to talk about what's been helping you feel clear, or is there something else on your mind that you'd like to explore? I'm here to listen and support you. \n\nBy the way, I can offer a simple grounding exercise if you'd like. It's called the 5-4-3-2-1 technique. We can do it together if you're interested. It might help you stay present and focused."
+    },
+    {
+      "role": "user",
+      "content": "hi i am kanisha and i am addicted to drugs and it my day 2 of quitting the drugs and i cant control my self, any suggestion?"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello Kanisha, I'm so proud of you for taking the first step towards quitting drugs. Day 2 can be really tough, and it's completely normal to feel like you're struggling to control yourself. First, let me just acknowledge how brave you're being - it takes a lot of courage to admit you need help and to start making changes.\n\nI want you to know that you're not alone in this. Many people have been where you are, and they've come out the other side. It's okay to feel overwhelmed, but I'm here to support you. One thing that might help is to take things one moment at a time. When you feel the urge to use, try to pause and take a few deep breaths. You can also try the 5-4-3-2-1 grounding technique I mentioned earlier: notice 5 things you can see, 4 things you can touch, 3 things you can hear, 2 things you can smell, and 1 thing you can taste. This can help calm your mind and body.\n\nHowever, I also want to make sure you have the support you need. Quitting drugs can be a serious process, and it's often best to do it with the help of a medical professional or a support group. If you're in immediate danger or feeling like you might harm yourself, please call/text 988 (Suicide & Crisis Lifeline, US) or your local emergency number. They can provide you with immediate support and connect you with resources in your area. Would you like some help finding resources or support groups in your area?"
+    }
+  ],
+  "s_17794407690689igl1v": [
+    {
+      "role": "user",
+      "content": "my name is wangpo and i got rejected by a girl today, i am feeling sad so any suggestion to ease the pain?"
+    },
+    {
+      "role": "user",
+      "content": "my name is wangpo and i got rejected by a girl today, i am feeling sad so any suggestion to ease the pain?"
+    },
+    {
+      "role": "user",
+      "content": "hello"
+    }
+  ],
+  "public_1779559599810": [
+    {
+      "role": "user",
+      "content": "hi"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello. It's nice to meet you. I'm here to listen and offer support if you need it. How are you feeling today? Is there something on your mind that you'd like to talk about, or would you just like some company for a bit?"
+    },
+    {
+      "role": "user",
+      "content": "hello"
+    },
+    {
+      "role": "assistant",
+      "content": "It's lovely to connect with you. I'm here to listen without judgment, and I want you to feel comfortable sharing whatever is on your mind. Would you like to start with something small, like how your day is going, or is there something more specific that's been weighing on your thoughts?"
+    },
+    {
+      "role": "user",
+      "content": "i am feeling sad today"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm so sorry to hear that you're feeling sad today. It can be really tough to navigate those emotions. Would you like to talk a bit about what's been going on and how you've been feeling? Sometimes sharing your thoughts and feelings can help you process and feel a little better. I'm here to listen and offer support.\n\nIf it feels overwhelming, we could also try a simple grounding exercise to help calm your mind and body. We could do a 5-4-3-2-1 exercise together, where we notice five things we can see, four things we can touch, three things we can hear, two things we can smell, and one thing we can taste. Would you like to try that, or would you rather just talk about what's on your mind?"
+    }
+  ],
+  "public_1779342341206": [
+    {
+      "role": "user",
+      "content": "hello"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello. It's nice to connect with you. I'm here to listen and offer support if you need it. How are you feeling today? Is there something on your mind that you'd like to talk about, or would you just like some company for a bit?"
+    },
+    {
+      "role": "user",
+      "content": "my name is yonten and i got rejected today"
+    },
+    {
+      "role": "assistant",
+      "content": "Yonten, I'm so sorry to hear that you're going through a tough time. Rejection can be really painful and disappointing. It's completely normal to feel upset or frustrated right now. Can you tell me a bit more about what happened? What were you hoping for, and how did you find out about the rejection? Sometimes sharing the story can help process the emotions."
+    },
+    {
+      "role": "user",
+      "content": "hey bro i cant sleep"
+    },
+    {
+      "role": "assistant",
+      "content": "Sorry to hear that, Yonten. It can be really frustrating when you can't sleep, especially when your mind is racing. Would you like to try something to help calm your mind and body? We could try some box breathing together - breathe in for 4 seconds, hold for 4 seconds, breathe out for 4 seconds, and hold again for 4 seconds. Or we could do a quick grounding exercise, like the 5-4-3-2-1 technique: notice 5 things you can see, 4 things you can touch, 3 things you can hear, 2 things you can smell, and 1 thing you can taste. Which one sounds good to you, or is there something else that might help you relax?"
+    }
+  ],
+  "s_1779719405174t8n4qy": [
+    {
+      "role": "user",
+      "content": "hi i am a bit sad today can you suggest any help?"
+    },
+    {
+      "role": "user",
+      "content": "hi"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello again. I'm so glad you reached out. It takes a lot of courage to acknowledge and share your feelings, especially when you're not feeling your best. I'm here to listen and offer support in any way I can. Can you tell me a bit more about what's been going on and how you've been feeling today? What's been on your mind, and how have you been taking care of yourself?\n\nRemember, you're not alone, and it's okay to feel sad sometimes. I'm here to listen without judgment and offer any guidance or support I can. If you're willing, we can explore some techniques together that might help you feel more grounded and centered, like deep breathing or mindfulness. But first, let's just focus on you and what you need right now. How are you feeling in this moment?"
+    },
+    {
+      "role": "user",
+      "content": "hi"
+    },
+    {
+      "role": "assistant",
+      "content": "It seems like you're feeling a bit stuck or unsure about how to express yourself. That's completely okay. Sometimes, it can be hard to put our emotions into words. Let's take a deep breath together and see if we can get a sense of what's going on. \n\nI want you to know that you're safe and supported here. I'm not going to try to fix everything or offer any solutions just yet. I just want to be present with you and listen. If you're ready, can you tell me one thing that's been on your mind or one feeling that you've been experiencing today? We can start with something small and go from there. \n\nAlso, I want to remind you that it's okay to feel whatever you're feeling. Your emotions are valid, and you're not alone. Let's take things one step at a time and focus on being kind to yourself. Would you like to try a simple grounding technique with me, like the 5-4-3-2-1 exercise, to help calm your mind and body?"
+    }
+  ],
+  "counsellor-2-ec62febb-cabd-4f13-9db2-409865c72761": [
+    {
+      "id": 1,
+      "sender": "counsellor",
+      "text": "Hello! I'm Pemba Dema. How can I support you today?",
+      "timestamp": "10:30 AM"
+    }
+  ],
+  "s_17797215944235grvew": [
+    {
+      "role": "user",
+      "content": "hi"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello. It's nice to meet you. I'm here to listen and support you in any way I can. How are you feeling today? Would you like to talk about something on your mind, or just take a moment to breathe and be present?"
+    }
+  ],
+  "counsellor-1-ec62febb-cabd-4f13-9db2-409865c72761": [
+    {
+      "id": 1,
+      "sender": "counsellor",
+      "text": "Hello! I'm Dr. Tenzin Dorji. How can I support you today?",
+      "timestamp": "10:30 AM"
+    },
+    {
+      "sender": "user",
+      "text": "hi doctor tenzin",
+      "timestamp": "12:07 AM",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "sender": "counsellor",
+      "text": "It's nice to meet you. I'm here to listen and help in any way I can. If you're feeling anxious or overwhelmed, please know that you're not alone. Anxiety is a common experience that many people face, and there are ways to manage it. Would you like to talk about what's been on your mind lately and how you've been feeling? Sometimes sharing your thoughts and feelings can help clarify things and give us a starting point to work from.",
+      "timestamp": "12:07 AM"
+    },
+    {
+      "sender": "user",
+      "text": "hello",
+      "timestamp": "12:08 AM",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "sender": "counsellor",
+      "text": "It can be a bit daunting to start talking about our feelings, but I'm here to listen without judgment. Take your time, and when you're ready, we can explore what's been going on. In the meantime, I want you to know that you're safe and supported. If you're feeling anxious or overwhelmed, I can offer some gentle grounding exercises to help calm your mind and body. Would you like to try one? It might help you feel more centered and relaxed as we chat.",
+      "timestamp": "12:08 AM"
+    },
+    {
+      "sender": "user",
+      "text": "i am sad today",
+      "timestamp": "12:08 AM",
+      "id": 6
+    },
+    {
+      "id": 7,
+      "sender": "counsellor",
+      "text": "I'm so sorry to hear that you're feeling sad today. It's completely okay to feel that way, and it takes a lot of courage to acknowledge and share your emotions. Would you like to talk about what's behind your sadness? Sometimes putting words to our feelings can help us understand and process them better. If not, that's okay too. We can just focus on being present with your emotions and finding ways to comfort and support you in this moment. \n\nIf you're willing, I can guide you through a simple exercise to help calm your mind and body. We can take a few deep breaths together, and I can offer some soothing words to help you feel more grounded. Would you like that?",
+      "timestamp": "12:08 AM"
+    }
+  ]
+}

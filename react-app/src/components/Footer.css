@@ -1,0 +1,154 @@
+.footer {
+  background: var(--primary);
+  color: var(--text-light);
+  padding: 60px 40px 30px;
+  text-align: center;
+  border-top: 1px solid var(--border);
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-disclaimer {
+  background: rgba(0, 212, 170, 0.05);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px 25px;
+  margin-bottom: 40px;
+  text-align: left;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.footer-disclaimer strong {
+  color: var(--accent);
+  display: block;
+  margin-bottom: 8px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: var(--accent);
+}
+
+.footer-bottom {
+  border-top: 1px solid var(--border);
+  padding-top: 30px;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    padding: 50px 40px 25px;
+  }
+
+  .footer-links {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 20px 20px;
+  }
+
+  .footer-disclaimer {
+    padding: 16px 20px;
+    font-size: 0.85rem;
+  }
+
+  .footer-links {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer-links a {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 35px 15px 15px;
+  }
+
+  .footer-disclaimer {
+    padding: 14px 15px;
+    font-size: 0.8rem;
+  }
+
+  .footer-disclaimer strong {
+    font-size: 0.85rem;
+    margin-bottom: 6px;
+  }
+
+  .footer-links {
+    gap: 15px;
+    flex-direction: column;
+  }
+
+  .footer-links a {
+    font-size: 0.85rem;
+    display: block;
+    padding: 8px 0;
+  }
+
+  .footer-bottom {
+    padding-top: 20px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 30px 12px 12px;
+  }
+
+  .footer-disclaimer {
+    padding: 12px 12px;
+    font-size: 0.75rem;
+    border-radius: 6px;
+  }
+
+  .footer-disclaimer strong {
+    font-size: 0.8rem;
+    margin-bottom: 4px;
+  }
+
+  .footer-links {
+    gap: 12px;
+  }
+
+  .footer-links a {
+    font-size: 0.8rem;
+    padding: 6px 0;
+  }
+
+  .footer-bottom {
+    padding-top: 15px;
+    font-size: 0.75rem;
+  }
+}

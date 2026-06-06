@@ -1,0 +1,63 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circles for decoration -->
+  <circle cx="160" cy="40" r="8" fill="#00d4aa" opacity="0.6"/>
+  <circle cx="30" cy="80" r="6" fill="#00d4aa" opacity="0.4"/>
+  <circle cx="170" cy="150" r="7" fill="#00d4aa" opacity="0.5"/>
+  
+  <!-- Flowers -->
+  <g transform="translate(50, 140)">
+    <circle cx="0" cy="0" r="3" fill="#ffffff"/>
+    <circle cx="4" cy="4" r="2" fill="#ff9800"/>
+    <circle cx="4" cy="-4" r="2" fill="#ff9800"/>
+    <circle cx="-4" cy="4" r="2" fill="#ff9800"/>
+    <circle cx="-4" cy="-4" r="2" fill="#ff9800"/>
+  </g>
+  
+  <g transform="translate(150, 160)">
+    <circle cx="0" cy="0" r="2.5" fill="#ffffff"/>
+    <circle cx="3.5" cy="3.5" r="1.5" fill="#ff9800"/>
+    <circle cx="3.5" cy="-3.5" r="1.5" fill="#ff9800"/>
+    <circle cx="-3.5" cy="3.5" r="1.5" fill="#ff9800"/>
+    <circle cx="-3.5" cy="-3.5" r="1.5" fill="#ff9800"/>
+  </g>
+  
+  <!-- Leaves/Plants -->
+  <path d="M 40 160 Q 35 150 40 140" stroke="#00d4aa" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 160 140 Q 170 130 175 120" stroke="#00d4aa" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Brain -->
+  <g transform="translate(100, 95)">
+    <!-- Left hemisphere -->
+    <path d="M -25 0 Q -25 -25 0 -30 Q 0 -15 -10 -10 Q -20 -5 -25 0" fill="#ff9800" opacity="0.9"/>
+    <path d="M -25 0 Q -25 25 0 30 Q 0 15 -10 10 Q -20 5 -25 0" fill="#ff9800" opacity="0.8"/>
+    
+    <!-- Right hemisphere -->
+    <path d="M 25 0 Q 25 -25 0 -30 Q 0 -15 10 -10 Q 20 -5 25 0" fill="#ff9800" opacity="0.9"/>
+    <path d="M 25 0 Q 25 25 0 30 Q 0 15 10 10 Q 20 5 25 0" fill="#ff9800" opacity="0.8"/>
+    
+    <!-- Brain center/divider -->
+    <line x1="0" y1="-30" x2="0" y2="30" stroke="#ff6b35" stroke-width="1.5" opacity="0.6"/>
+    
+    <!-- Brain wrinkles/texture -->
+    <path d="M -20 -15 Q -15 -12 -10 -15" stroke="#ff6b35" stroke-width="1" fill="none" opacity="0.5"/>
+    <path d="M -20 0 Q -15 2 -10 0" stroke="#ff6b35" stroke-width="1" fill="none" opacity="0.5"/>
+    <path d="M -20 15 Q -15 12 -10 15" stroke="#ff6b35" stroke-width="1" fill="none" opacity="0.5"/>
+    
+    <path d="M 20 -15 Q 15 -12 10 -15" stroke="#ff6b35" stroke-width="1" fill="none" opacity="0.5"/>
+    <path d="M 20 0 Q 15 2 10 0" stroke="#ff6b35" stroke-width="1" fill="none" opacity="0.5"/>
+    <path d="M 20 15 Q 15 12 10 15" stroke="#ff6b35" stroke-width="1" fill="none" opacity="0.5"/>
+  </g>
+  
+  <!-- Watering can -->
+  <g transform="translate(120, 35)">
+    <!-- Can body -->
+    <ellipse cx="0" cy="5" rx="12" ry="14" fill="#4fa8d5" opacity="0.8"/>
+    <!-- Can spout -->
+    <path d="M 15 5 Q 25 2 30 -2" stroke="#4fa8d5" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.8"/>
+    <!-- Water stream -->
+    <circle cx="32" cy="-5" r="2" fill="#4fa8d5" opacity="0.6"/>
+    <circle cx="34" cy="0" r="1.5" fill="#4fa8d5" opacity="0.5"/>
+    <!-- Handle -->
+    <path d="M 5 0 Q 15 -10 8 -15" stroke="#4fa8d5" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.8"/>
+  </g>
+</svg>

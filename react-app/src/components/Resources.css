@@ -1,0 +1,141 @@
+.resources {
+  background: var(--primary);
+  padding: 100px 40px;
+  border-top: 1px solid var(--border);
+}
+
+.section-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-family: 'Lora', serif;
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  text-align: center;
+  color: var(--text-light);
+  font-weight: 700;
+}
+
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.resource-item {
+  background: linear-gradient(135deg, rgba(0, 212, 170, 0.05) 0%, rgba(0, 212, 170, 0.02) 100%);
+  border: 1px solid var(--border);
+  padding: 35px 30px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.resource-item:hover {
+  transform: translateY(-8px);
+  border-color: var(--accent);
+  box-shadow: 0 12px 32px rgba(0, 212, 170, 0.15);
+}
+
+.resource-item h3 {
+  color: var(--text-light);
+  margin-bottom: 12px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.resource-item p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 1024px) {
+  .resources {
+    padding: 80px 40px;
+  }
+
+  .resources-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .resources {
+    padding: 60px 20px;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+  }
+
+  .resources-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+
+  .resource-item {
+    padding: 32px 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .resources {
+    padding: 50px 15px;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+  .resources-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .resource-item {
+    padding: 24px 16px;
+  }
+
+  .resource-item h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+
+  .resource-item p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .resources {
+    padding: 40px 12px;
+  }
+
+  .section-title {
+    font-size: 1.3rem;
+    margin-bottom: 24px;
+  }
+
+  .resources-grid {
+    gap: 12px;
+  }
+
+  .resource-item {
+    padding: 20px 12px;
+  }
+
+  .resource-item h3 {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+
+  .resource-item p {
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+}
