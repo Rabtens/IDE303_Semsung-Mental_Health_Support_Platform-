@@ -17,6 +17,8 @@ function UserProfile() {
     }
     
     fetchProfile();
+    // Fetch again only when the active user changes.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user, navigate]);
 
   const fetchProfile = async () => {

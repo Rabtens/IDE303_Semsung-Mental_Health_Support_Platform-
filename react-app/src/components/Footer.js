@@ -9,8 +9,8 @@ function Footer() {
           <a href="#about">About</a>
           <a href="#features">Features</a>
           <a href="#resources">Resources</a>
-          <a href="#">Privacy Policy</a>
-          <a href="#">Contact Us</a>
+          <a href="/privacy">Privacy Policy</a>
+          <a href="mailto:support@semzung.example">Contact Us</a>
         </div>
         <div className="footer-bottom">
           <p>

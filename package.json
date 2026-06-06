@@ -2,16 +2,49 @@
   "name": "mindful-chat-backend",
   "version": "1.0.0",
   "description": "Backend for MindfulChat conversation storage",
-  "main": "server.js",
+  "main": "server-react.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node server-react.js",
+    "dev": "nodemon server-react.js",
+    "test": "jest --runInBand --no-watchman",
+    "test:unit": "jest tests/backend/unit --runInBand --no-watchman",
+    "test:integration": "jest tests/backend/integration --runInBand --no-watchman",
+    "test:api": "newman run postman/semzung-api.postman_collection.json -e postman/ci.postman_environment.json",
+    "test:coverage": "jest --coverage --runInBand --no-watchman",
+    "test:e2e": "playwright test",
+    "test:performance": "k6 run tests/performance/api-load-test.js",
+    "lint": "eslint app.js server-react.js src tests/backend"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "helmet": "^8.1.0"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "eslint": "^8.57.1",
+    "jest": "^29.7.0",
+    "newman": "^6.2.1",
+    "nodemon": "^3.0.1",
+    "@playwright/test": "^1.52.0",
+    "supertest": "^7.1.1",
+    "wait-on": "^8.0.3"
+  },
+  "jest": {
+    "testMatch": [
+      "<rootDir>/tests/backend/**/*.test.js"
+    ],
+    "collectCoverageFrom": [
+      "app.js",
+      "src/**/*.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 60,
+        "functions": 75,
+        "lines": 75,
+        "statements": 75
+      }
+    }
   }
 }

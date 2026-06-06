@@ -21,9 +21,21 @@ A compassionate mental health support chatbot with persistent conversation stora
 ```bash
 npm install
 ```
-This installs `express` and `cors` from `package.json`.
+Install the React dependencies and build the frontend too:
+```bash
+cd react-app
+npm install
+npm run build
+cd ..
+```
 
-### 2. Start the backend server
+### 2. Configure the backend
+Copy `.env.example` to `.env` and set:
+```bash
+GROQ_API_KEY=your-groq-api-key-here
+```
+
+### 3. Start the backend server
 ```bash
 npm start
 ```
@@ -32,7 +44,7 @@ Expected output:
 🌿 MindfulChat server running at http://localhost:3000
 ```
 
-### 3. Open in browser
+### 4. Open in browser
 Navigate to: **http://localhost:3000**
 
 ---
@@ -44,9 +56,10 @@ Navigate to: **http://localhost:3000**
 - Saves conversation to backend **after each message**
 - Clear button (🗑️ in header) wipes history locally and on server
 
-### **Backend** (`server.js`)
+### **Backend** (`server-react.js`)
 - Stores all conversations in `conversations.json` (file-based)
 - Endpoints:
+  - `POST /api/chat` — securely proxy chatbot requests to Groq
   - `GET /api/conversation/:sessionId` — retrieve saved chat
   - `POST /api/conversation/:sessionId` — save/update chat
   - `DELETE /api/conversation/:sessionId` — clear a session's history
@@ -55,22 +68,9 @@ Navigate to: **http://localhost:3000**
 
 ## Groq API Key
 
-Get a free key at [console.groq.com](https://console.groq.com), then configure it for whichever frontend you're using:
-
-**React app (`react-app/`):**
-Copy `.env.example` to `.env.local` and set:
-```
-REACT_APP_GROQ_API_KEY=your-groq-api-key-here
-```
-
-**Static HTML (`mindful_chat.html`):**
-Open the page, then in the browser DevTools console run:
-```javascript
-localStorage.setItem('groq_api_key', 'your-groq-api-key-here');
-```
-Refresh the page after setting it.
-
-**⚠️ Never commit your API key.** `.env.local` is gitignored — keep it that way.
+Get a free key at [console.groq.com](https://console.groq.com), then set
+`GROQ_API_KEY` in the backend `.env` file. The browser calls `/api/chat`; never
+put the Groq key in React environment variables or browser `localStorage`.
 
 ---
 
@@ -88,7 +88,8 @@ npm run dev
 ```
 mhsp/
 ├── mindful_chat.html      # Frontend (UI + client-side logic)
-├── server.js              # Backend (Express + file storage)
+├── server-react.js        # Backend startup
+├── app.js                 # Testable Express application
 ├── package.json           # Node dependencies
 ├── conversations.json     # Chat history storage (auto-created)
 └── README.md              # This file
@@ -101,9 +102,9 @@ mhsp/
 | Issue | Fix |
 |-------|-----|
 | `npm: command not found` | Install Node.js from nodejs.org |
-| Port 3000 already in use | Change `PORT` in `server.js` or kill the process using port 3000 |
+| Port 3000 already in use | Change `PORT` in `.env` or stop the existing process |
 | Conversation not saving | Check browser console (F12) for network errors; ensure server is running |
-| "API key is missing" | Verify `GROQ_API_KEY` is set in `mindful_chat.html` line 401 |
+| Chat service is not configured | Verify server-side `GROQ_API_KEY` is set in `.env` |
 
 ---
 
@@ -112,7 +113,7 @@ mhsp/
 - **Deploy to cloud:** Use Vercel, Heroku, or Railway for free hosting
 - **Use MongoDB:** Replace `conversations.json` with MongoDB Atlas for scalability
 - **Add authentication:** Secure conversations per user with login
-- **Move API key to env:** Use `dotenv` for environment variables
+- **Add authorization:** Verify Supabase access tokens on private API endpoints
 
 ---
 

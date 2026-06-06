@@ -1,0 +1,15 @@
+.git
+.github
+node_modules
+react-app/node_modules
+react-app/build
+coverage
+react-app/coverage
+playwright-report
+test-results
+data
+conversations.json
+moods.json
+profiles.json
+.env*
+npm-debug.log*

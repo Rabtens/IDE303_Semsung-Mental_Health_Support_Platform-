@@ -4,7 +4,7 @@ import { useAuth } from '../context/AuthContext';
 import './ProfileEdit.css';
 
 function ProfileEdit() {
-  const { user, userProfile, updateUserProfile } = useAuth();
+  const { user, updateUserProfile } = useAuth();
   const navigate = useNavigate();
   
   const [displayName, setDisplayName] = useState('');
@@ -25,6 +25,8 @@ function ProfileEdit() {
     }
 
     fetchProfile();
+    // Fetch again only when the active user changes.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user, navigate]);
 
   const fetchProfile = async () => {

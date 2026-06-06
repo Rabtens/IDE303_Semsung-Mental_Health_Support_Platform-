@@ -39,6 +39,8 @@ function MoodTracker() {
     if (user || sessionId) {
       fetchTodayMood();
     }
+    // Fetch again only when the active identity changes.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user, sessionId]);
 
   const fetchTodayMood = async () => {

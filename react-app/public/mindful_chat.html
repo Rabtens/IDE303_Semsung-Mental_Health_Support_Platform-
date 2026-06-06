@@ -480,7 +480,6 @@
 
 <script>
   // ─── STATE ───────────────────────────────────────────────────────────────────
-  let GROQ_API_KEY = localStorage.getItem('groq_api_key') || '';
   let conversationHistory = [];
   let isLoading = false;
   const SESSION_ID_KEY = 'semzung_session_id';
@@ -510,9 +509,7 @@ Your tone is: warm, calm, human, grounding. Like a wise friend who listens witho
   
 
   // ─── INIT ─────────────────────────────────────────────────────────────────────
-  if (GROQ_API_KEY) {
-    sendBtn.disabled = false;
-  }
+  sendBtn.disabled = false;
 
   // Load saved conversation for this session (if any)
   (async function loadConversation() {
@@ -551,10 +548,6 @@ Your tone is: warm, calm, human, grounding. Like a wise friend who listens witho
 
   // ─── QUICK CHIP ──────────────────────────────────────────────────────────────
   function sendChip(el) {
-    if (!GROQ_API_KEY) {
-      addBotMessage("API key is missing. Please configure your Groq key.");
-      return;
-    }
     const text = el.textContent.trim();
     inputEl.value = text;
     handleSend();
@@ -587,21 +580,14 @@ Your tone is: warm, calm, human, grounding. Like a wise friend who listens witho
     const typingId = addTypingIndicator();
 
     try {
-      const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+      const response = await fetch('/api/chat', {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${GROQ_API_KEY}`
+          'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          model: 'llama-3.3-70b-versatile',   // Fast, capable Groq model
-          messages: [
-            { role: 'system', content: SYSTEM_PROMPT },
-            ...conversationHistory
-          ],
-          temperature: 0.75,
-          max_tokens: 512,
-          stream: false
+          messages: conversationHistory,
+          specialty: 'general'
         })
       });
 
@@ -615,7 +601,7 @@ Your tone is: warm, calm, human, grounding. Like a wise friend who listens witho
       }
 
       const data = await response.json();
-      const reply = data.choices?.[0]?.message?.content?.trim();
+      const reply = data.reply?.trim();
 
       if (reply) {
         addBotMessage(reply);

@@ -9,4 +9,13 @@ yarn-debug.log*
 yarn-error.log*
 build/
 dist/
+coverage/
+playwright-report/
+test-results/
+.scannerwork/
+.nyc_output/
+data/
+conversations.json
+moods.json
+profiles.json
 .DS_Store

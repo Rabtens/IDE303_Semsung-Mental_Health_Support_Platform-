@@ -26,6 +26,8 @@ async function uploadVoiceMessage(blob, ownerKey) {
 }
 
 // System prompts for each counsellor specialty
+// Prompts are enforced by the backend; this reference remains useful for UI documentation.
+// eslint-disable-next-line no-unused-vars
 const COUNSELLOR_PROMPTS = {
   anxiety: `You are Dr. Tenzin Dorji, a specialist in anxiety disorders with 8 years of experience. Your role is to:
 1. Help users understand and manage anxiety symptoms
@@ -214,8 +216,6 @@ const MessagingPanel = ({ counsellor, onClose }) => {
   }, []);
 
   const getGroqResponse = useCallback(async (userMessage) => {
-    const GROQ_API_KEY = process.env.REACT_APP_GROQ_API_KEY || localStorage.getItem('groq_api_key');
-
     try {
       // Add user message to history
       conversationHistoryRef.current.push({
@@ -223,21 +223,14 @@ const MessagingPanel = ({ counsellor, onClose }) => {
         content: userMessage,
       });
 
-      const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+      const response = await fetch('/api/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${GROQ_API_KEY}`,
         },
         body: JSON.stringify({
-          model: 'llama-3.3-70b-versatile',
-          messages: [
-            { role: 'system', content: COUNSELLOR_PROMPTS[counsellor.specialty] },
-            ...conversationHistoryRef.current,
-          ],
-          temperature: 0.7,
-          max_tokens: 512,
-          stream: false,
+          messages: conversationHistoryRef.current,
+          specialty: counsellor.specialty,
         }),
       });
 
@@ -247,7 +240,7 @@ const MessagingPanel = ({ counsellor, onClose }) => {
       }
 
       const data = await response.json();
-      const reply = data.choices?.[0]?.message?.content?.trim();
+      const reply = data.reply?.trim();
 
       if (!reply) {
         throw new Error('No response from API');

@@ -71,6 +71,8 @@ export function AuthProvider({ children }) {
     });
 
     return () => subscription?.unsubscribe();
+    // This initialization effect intentionally runs once; auth changes are handled by the subscription.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const signUp = async (email, password, fullName) => {
