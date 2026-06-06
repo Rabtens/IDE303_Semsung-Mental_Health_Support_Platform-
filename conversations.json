@@ -357,6 +357,14 @@
     {
       "role": "assistant",
       "content": "Hello. It's nice to meet you. I'm here to listen and support you in any way I can. How are you feeling today? Would you like to talk about something on your mind, or just take a moment to breathe and be present?"
+    },
+    {
+      "role": "user",
+      "content": "hello"
+    },
+    {
+      "role": "user",
+      "content": "hello"
     }
   ],
   "counsellor-1-ec62febb-cabd-4f13-9db2-409865c72761": [

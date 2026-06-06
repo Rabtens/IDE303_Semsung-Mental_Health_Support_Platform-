@@ -214,7 +214,7 @@ const MessagingPanel = ({ counsellor, onClose }) => {
   }, []);
 
   const getGroqResponse = useCallback(async (userMessage) => {
-    const GROQ_API_KEY = localStorage.getItem('groq_api_key') || 'REDACTED_GROQ_KEY';
+    const GROQ_API_KEY = process.env.REACT_APP_GROQ_API_KEY || localStorage.getItem('groq_api_key');
 
     try {
       // Add user message to history

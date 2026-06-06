@@ -55,12 +55,22 @@ Navigate to: **http://localhost:3000**
 
 ## Groq API Key
 
-The API key is already embedded in `mindful_chat.html` (line 401):
-```javascript
-let GROQ_API_KEY = 'REDACTED_GROQ_KEY';
+Get a free key at [console.groq.com](https://console.groq.com), then configure it for whichever frontend you're using:
+
+**React app (`react-app/`):**
+Copy `.env.example` to `.env.local` and set:
+```
+REACT_APP_GROQ_API_KEY=your-groq-api-key-here
 ```
 
-**⚠️ Security Note:** For production, move the key to a `.env` file or backend environment variable to avoid exposing it in the client code.
+**Static HTML (`mindful_chat.html`):**
+Open the page, then in the browser DevTools console run:
+```javascript
+localStorage.setItem('groq_api_key', 'your-groq-api-key-here');
+```
+Refresh the page after setting it.
+
+**⚠️ Never commit your API key.** `.env.local` is gitignored — keep it that way.
 
 ---
 
