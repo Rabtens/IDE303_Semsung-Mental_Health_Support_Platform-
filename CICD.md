@@ -70,8 +70,8 @@ Coverage is read from `coverage/lcov.info` and `react-app/coverage/lcov.info`.
 The publish job runs after successful pushes to `CICD` and publishes:
 
 ```text
-ghcr.io/<github-owner>/<repository>:CICD
-ghcr.io/<github-owner>/<repository>:sha-<commit>
+ghcr.io/<github-owner>/semzung-mental-health-platform:cicd
+ghcr.io/<github-owner>/semzung-mental-health-platform:sha-<commit>
 ```
 
 Deploy that image to the selected hosting platform and mount persistent storage at `/app/data`. For production scaling, replace JSON-file storage with a database before running multiple container replicas.

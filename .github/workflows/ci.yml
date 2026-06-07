@@ -207,9 +207,9 @@ jobs:
       - uses: docker/metadata-action@v5
         id: meta
         with:
-          images: ghcr.io/${{ github.repository }}
+          images: ghcr.io/${{ github.repository_owner }}/semzung-mental-health-platform
           tags: |
-            type=ref,event=branch
+            type=raw,value=cicd
             type=sha
       - uses: docker/build-push-action@v6
         with:
