@@ -2,14 +2,15 @@
 
 ## Pipeline Overview
 
-The repository uses GitHub Actions:
+The repository uses one GitHub Actions workflow: `.github/workflows/ci.yml`.
 
-- `ci.yml`: backend lint/unit/integration coverage, frontend tests/build, Postman API tests, Playwright E2E tests, and optional SonarQube quality gate.
-- `security.yml`: Snyk dependency/code scans and an OWASP ZAP baseline scan.
-- `performance.yml`: scheduled and manual k6 API load tests.
-- `cd.yml`: builds and publishes a production container to GitHub Container Registry after changes reach `main`.
+It runs backend, frontend, API, E2E, SonarQube, Snyk, OWASP ZAP, and k6 jobs
+when code is pushed to `CICD` or when a pull request targets `main`. After every
+job passes, direct pushes to `CICD` also publish the production container to
+GitHub Container Registry. Pull requests never publish containers.
 
-Protect the `main` branch and require the CI, Security, and SonarQube checks before merging.
+Protect the `main` branch and require the workflow's test and security jobs
+before merging.
 
 ## Required GitHub Secrets
 
@@ -66,10 +67,10 @@ Coverage is read from `coverage/lcov.info` and `react-app/coverage/lcov.info`.
 
 ## Deployment
 
-The CD workflow publishes:
+The publish job runs after successful pushes to `CICD` and publishes:
 
 ```text
-ghcr.io/<github-owner>/<repository>:main
+ghcr.io/<github-owner>/<repository>:CICD
 ghcr.io/<github-owner>/<repository>:sha-<commit>
 ```
 
