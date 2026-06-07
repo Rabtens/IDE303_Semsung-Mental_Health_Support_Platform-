@@ -91,6 +91,7 @@ jobs:
     env:
       SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+      SONAR_ORGANIZATION: ${{ vars.SONAR_ORGANIZATION }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -103,8 +104,11 @@ jobs:
         with:
           name: frontend-build-and-coverage
           path: .
-      - uses: SonarSource/sonarqube-scan-action@v5
-        if: ${{ env.SONAR_TOKEN != '' && env.SONAR_HOST_URL != '' }}
+      - uses: SonarSource/sonarqube-scan-action@v7
+        if: ${{ env.SONAR_TOKEN != '' && env.SONAR_HOST_URL != '' && env.SONAR_ORGANIZATION != '' }}
+        with:
+          args: >
+            -Dsonar.organization=${{ env.SONAR_ORGANIZATION }}
       - uses: SonarSource/sonarqube-quality-gate-action@v1
-        if: ${{ env.SONAR_TOKEN != '' && env.SONAR_HOST_URL != '' }}
+        if: ${{ env.SONAR_TOKEN != '' && env.SONAR_HOST_URL != '' && env.SONAR_ORGANIZATION != '' }}
         timeout-minutes: 5

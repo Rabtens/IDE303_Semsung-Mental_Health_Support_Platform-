@@ -23,6 +23,12 @@ Configure these in repository or environment settings:
 | `REACT_APP_SUPABASE_URL` | Production frontend build |
 | `REACT_APP_SUPABASE_ANON_KEY` | Production frontend build |
 
+Configure this non-secret GitHub Actions repository variable:
+
+| Variable | Used for |
+| --- | --- |
+| `SONAR_ORGANIZATION` | SonarQube Cloud organization key used as `sonar.organization` |
+
 The runtime container also requires `GROQ_API_KEY`. Configure it in the deployment platform, never as a frontend build argument.
 
 If SonarQube is hosted only on a private/local network, use a self-hosted GitHub Actions runner that can reach it.
