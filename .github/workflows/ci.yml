@@ -164,6 +164,7 @@ jobs:
           fail_action: true
           cmd_options: '-I'
           artifact_name: zap-report
+          allow_issue_writing: false
 
   performance:
     runs-on: ubuntu-latest
