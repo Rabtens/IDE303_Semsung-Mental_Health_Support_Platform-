@@ -17,6 +17,7 @@ jobs:
         with:
           node-version: 20
           cache: npm
+      - run: npm install --global npm@10.9.2
       - run: npm ci
       - run: npm run lint
       - run: npm run test:coverage
@@ -37,6 +38,7 @@ jobs:
           node-version: 20
           cache: npm
           cache-dependency-path: react-app/package-lock.json
+      - run: npm install --global npm@10.9.2
       - run: npm ci
         working-directory: react-app
       - run: npm run test:coverage
@@ -63,6 +65,7 @@ jobs:
         with:
           node-version: 20
           cache: npm
+      - run: npm install --global npm@10.9.2
       - run: npm ci
       - run: npm ci
         working-directory: react-app

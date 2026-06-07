@@ -1,6 +1,7 @@
 {
   "name": "semzung-web",
   "version": "1.0.0",
+  "packageManager": "npm@10.9.2",
   "private": true,
   "dependencies": {
     "@supabase/supabase-js": "^2.106.0",

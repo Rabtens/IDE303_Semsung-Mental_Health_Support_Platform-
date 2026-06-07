@@ -1,6 +1,7 @@
 {
   "name": "mindful-chat-backend",
   "version": "1.0.0",
+  "packageManager": "npm@10.9.2",
   "description": "Backend for MindfulChat conversation storage",
   "main": "server-react.js",
   "scripts": {
